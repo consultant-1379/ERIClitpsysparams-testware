@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<litp:sysparam-node-config-params-collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:litp="http://www.ericsson.com/litp" xsi:schemaLocation="http://www.ericsson.com/litp litp-xml-schema/litp.xsd" id="params">
+  <litp:sysparam id="sysctl04updated">
+    <key>kernel.pid_max</key>
+    <value>10000</value>
+  </litp:sysparam>
+  <litp:sysparam id="sysctltest04">
+    <key>kernel.msgmnb</key>
+    <value>65535</value>
+  </litp:sysparam>
+  <litp:sysparam id="sysctl04new">
+    <key>kernel.threads-max</key>
+    <value>15637</value>
+  </litp:sysparam>
+  <litp:sysparam id="sysctrl_01">
+  <key>net.ipv4.tcp_wmem</key>
+  <value>4096 65536 16777215</value>
+</litp:sysparam>
+</litp:sysparam-node-config-params-collection>
+
